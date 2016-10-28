@@ -1,0 +1,32 @@
+{
+  "name": "unicode-converter",
+  "displayName": "Unicode Converter",
+  "version": "v1.0.0",
+  "description": "An Unicode Converter app with support for Windows, OS X and GNU/Linux.",
+  "homepage": "http://nepdict.com",
+  "license": "Apache-2.0",
+  "main": "main.js",
+	"author": {
+    "name": "Bista Nirooj",
+    "email": "nirooj56@gmail.com",
+    "url": "http://nirojbista.com.np"
+	},
+  "dependencies": {
+    "pretty-bytes": "^2.0.1"
+  },
+  "devDependencies": {
+    "electron": "^1.4.4"
+  },
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "builder": {
+    "win": {
+      "title": "Unicode Converter",
+      "version": "v1.0.0",
+      "author": "Bista Nirooj",
+      "icon": "assets/icons/win/unicode.ico",
+      "verbosity": 1
+    }
+  }
+}
