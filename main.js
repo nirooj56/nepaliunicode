@@ -8,20 +8,18 @@ let win
 function createWindow() {
 	// Create the browser window.
 	win = new BrowserWindow({
-		width: 700,
+		title: 'Unicode Converter',
+		width: 600,
 		height: 500,
 		resizable: false,
 		fullscreen: false,
 		backgroundColor: '#218eed',
 		frame: false,
-		icon: path.join(__dirname, '/assets/icons/png/64x64.png')
+		icon: __dirname + '/unicode.png'
 	})
 
 	// and load the index.html of the app.
-	win.loadURL(`file://${__dirname}/index.html`)
-
-	// Open the DevTools.
-	win.webContents.openDevTools()
+	win.loadURL(`file://${__dirname}/app/index.html`)
 
 	// Emitted when the window is closed.
 	win.on('closed', () => {
@@ -37,7 +35,7 @@ function createWindow() {
 // Some APIs can only be used after this event occurs.
 app.on('ready', createWindow)
 
-// Quit when all windows are closed. 
+// Quit when all windows are closed.
 app.on('window-all-closed', () => {
 	// On macOS it is common for applications and their menu bar
 	// to stay active until the user quits explicitly with Cmd + Q
@@ -67,11 +65,11 @@ ipcMain.on('minimize-main-window', function () {
 });
 
 
-//this creates the new browser window for help and about section
+//this creates the new browser window for about and help section
 app.on('ready', () => {
 	ipcMain.on('create-about-window', () => {
 		let aboutWindow = new BrowserWindow({
-			title: 'Unicode Converter | About',
+			title: 'About',
 			width: 400,
 			height: 459,
 			resizable: false,
@@ -80,14 +78,15 @@ app.on('ready', () => {
 			alwaysOnTop: true,
 			backgroundColor: '#218eed',
 			frame: false,
+			icon: path.join(__dirname, '/unicode.png')
 		});
 		aboutWindow.setMenu(null);
-		aboutWindow.loadURL('file://' + __dirname + '/about.html');
+		aboutWindow.loadURL('file://' + __dirname + '/app/about.html');
 		aboutWindow.show();
 	});
 	ipcMain.on('create-help-window', () => {
 		let helpWindow = new BrowserWindow({
-			title: 'Unicode Converter | Help',
+			title: 'Help',
 			width: 550,
 			height: 450,
 			resizable: false,
@@ -96,11 +95,11 @@ app.on('ready', () => {
 			alwaysOnTop: true,
 			backgroundColor: '#218eed',
 			frame: false,
+			icon: path.join(__dirname, '/unicode.png')
 		});
 		helpWindow.setMenu(null);
-		helpWindow.loadURL('file://' + __dirname + '/help.html');
+		helpWindow.loadURL('file://' + __dirname + '/app/help.html');
 		helpWindow.show();
 	});
 });
-
 
