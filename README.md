@@ -4,11 +4,12 @@
   <br>
   Unicode Converter
   <br>
+   <a href="https://travis-ci.org/nirooj56/unicode"><img src="https://travis-ci.org/nirooj56/unicode.svg?branch=master" alt="Travis"></a>
+  <a href="https://github.com/nirooj56/unicode/releases"><img src="https://img.shields.io/github/release/nirooj56/unicode.svg" alt="Release"></a>
+  <a href="https://github.com/nirooj56/unicode/blob/master/Licence"><img src="https://img.shields.io/github/license/nirooj56/unicode.svg" alt="Release"></a>
   <br>
 </h1>
-<p align="center">
-<img src=""
-</p>
+
 Unicode Converter is an Desktop Application aiming to help general user belonging from Nepal by providing an easy way to Convert English Word into Nepali words using Unicode system.
 
 * This is an standalone Desktop Application created using Web Technologies like HTML/CSS, Javascript, NodeJS & [Electron](electron.github.io).
@@ -40,71 +41,6 @@ $ npm install
 ```
 $ npm start
 ```
-
-### Watch the code
-
-Restart the app automatically every time code changes. Useful during development.
-
-```
-$ npm run watch
-```
-
-### Run linters
-
-```
-$ npm test
-```
-### Package the app
-
-Builds app binaries for Mac, Linux, and Windows.
-
-```
-$ npm run package
-```
-
-To build for one platform:
-
-```
-$ npm run package -- [platform] [options]
-```
-
-Where `[platform]` is `darwin`, `linux`, `win32`, or `all` (default).
-
-The following optional arguments are available:
-
-- `--sign` - Sign the application (Mac, Windows)
-- `--package=[type]` - Package single output type.
-   - `deb` - Debian package
-   - `zip` - Linux zip file
-   - `dmg` - Mac disk image
-   - `exe` - Windows installer
-   - `portable` - Windows portable app
-   - `all` - All platforms (default)
-
-Note: Even with the `--package` option, the auto-update files (.nupkg for Windows, *-darwin.zip for Mac) will always be produced.
-
-#### Windows build notes
-
-The Windows app can be packaged from **any** platform.
-
-Note: Windows code signing only works from **Windows**, for now.
-
-Note: To package the Windows app from non-Windows platforms,
-[Wine](https://www.winehq.org/) needs to be installed. For example on Mac, first install [XQuartz](http://www.xquartz.org/), then run:
-
-```
-brew install wine
-```
-
-(Requires the [Homebrew](http://brew.sh/) package manager.)
-
-#### Mac build notes
-
-The Mac app can only be packaged from **macOS**.
-
-#### Linux build notes
-
-The Linux app can be packaged from **any** platform.
 
 ## Version
 
