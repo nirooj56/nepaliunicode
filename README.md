@@ -1,9 +1,14 @@
-<h1 align="center">  Unicode Converter </h1>
-
+<h1 align="center">
+  <br>
+  <img height="256" width="256" src="https://github.com/nirooj56/unicode/blob/master/logo.png" alt="Unicode Converter">
+  <br>
+  Unicode Converter
+  <br>
+  <br>
+</h1>
 <p align="center">
-<img height="256" width="256" src="https://github.com/nirooj56/unicode/blob/master/logo.png" title="Unicode Converter">
+<img src=""
 </p>
-
 Unicode Converter is an Desktop Application aiming to help general user belonging from Nepal by providing an easy way to Convert English Word into Nepali words using Unicode system.
 
 * This is an standalone Desktop Application created using Web Technologies like HTML/CSS, Javascript, NodeJS & [Electron](electron.github.io).
