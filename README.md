@@ -22,7 +22,7 @@ Unicode Converter is an Desktop Application aiming to help general user belongin
 
 ## Installation
 
-Download the latest version of Unicode Converter Desktop Application from [the official website](https://nepdict.com/download/) or the [GitHub releases](https://github.com/nirooj56/unicode/releases) page.
+Download the latest version of Unicode Converter Desktop Application from ~~[the official website](https://nepdict.com/download/)~~ or the [GitHub releases](https://github.com/nirooj56/unicode/releases) page.
 
 ##Contribution
 
