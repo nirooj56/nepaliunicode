@@ -57,7 +57,7 @@ $ npm start
 * **Name**: Nirooj Bista
 * **Website**: http://www.nirojbista.com.np
 * **E-mail**: info@nirojbista.com.np
-* **[Facebook](https://www.facebook.com/niroj56) - [Twitter](https://www.twitter.com/nirooj56) - [Google+](https://plus.google.com/+bistanirooj) - [Linkedin](https://www.linkedin.com/in/nirooj56)**
+* **[Facebook](https://www.facebook.com/nirooj56) - [Twitter](https://www.twitter.com/nirooj56) - [Google+](https://plus.google.com/+bistanirooj) - [Linkedin](https://www.linkedin.com/in/nirooj56)**
 
 ## License
 
