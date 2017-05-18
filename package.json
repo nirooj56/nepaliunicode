@@ -1,9 +1,10 @@
 {
   "name": "unicode-converter",
-  "displayName": "Unicode Converter",
-  "productName": "Unicode Converter",
-  "version": "v1.0.0",
+  "displayName": "Unicode",
+  "productName": "Unicode",
+  "FileVersion": "v1.2.1",
   "description": "An Unicode Converter app with support for Windows, OS X and GNU/Linux.",
+  "version": "1.2.1",
   "homepage": "http://nepdict.com/unicode.html",
   "repository": {
     "type": "git",
@@ -13,13 +14,49 @@
     "name": "Bista Nirooj",
     "email": "nirooj56@gmail.com",
     "url": "http://nirojbista.com.np"
-	},
+  },
   "main": "main.js",
-  "devDependencies": {
-    "electron": "^1.4.4"
-  },
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+    "pack": "build",
+    "dist": "build --linux --ia32",
+    "postinstall": "install-app-deps"
   },
-  "license": "MIT"
+  "build": {
+    "appId": "com.nepdict.unicode",
+    "mac": {
+      "category": "public.app-category.productivity"
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "deb",
+        "AppImage"
+      ]
+    },
+    "win": {
+      "target": "NSIS",
+      "icon": "build/icon.ico"
+    }
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^1.4.4",
+    "electron-builder": "^17.8.0",
+    "electron-winstaller": "^2.5.2"
+  }
 }
