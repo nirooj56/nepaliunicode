@@ -27,13 +27,13 @@ Unicode Converter is an Desktop Application aiming to help general user belongin
 
     * Unicode App is available for both 32 and 64 bit Architectures.
 
-        1. Download ```unicode_amd64.deb``` or ```unicode_i386.deb``` from the [Unicode releases page](https://github.com/nirooj56/unicode/releases/tag/v1.2,1).
-        2. Run ```$ sudo dpkg --install unicode_amd64.deb``` on the downloaded package. (Or use **gdebi**)
+        1. Download ```unicode_amd64.deb```(32-bit) or ```unicode_i386.deb```(64-bit) from the [Unicode releases page](https://github.com/nirooj56/unicode/releases/tag/v1.2,1).
+        2. Run ```$ sudo dpkg --install unicode_*.deb``` on the downloaded package. (Or use **gdebi**)
         3. Launch Unicode the Appication Menu.
 
-    * RPM Based Distro (Mandriva, Red Had/Fedora, derivatives)
+ * RPM Based Distro (Mandriva, Red Had/Fedora, derivatives)
 
-        1. We don't have direct support for rpm file so you need to create it using 'deb' file and Alien Package Converter. **OR** I will suggest you to use AppImage Format.
+    1. We don't have direct support for rpm file so you need to create it using 'deb' file and Alien Package Converter. **OR** I will suggest you to use AppImage Format.
 
 * Every Other Linux based Distros (***Preferable***)
 
