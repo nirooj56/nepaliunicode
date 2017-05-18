@@ -9,10 +9,11 @@
 @font-face {
 	font-weight: normal;
 	font-style: normal;
-	font-family: 'codropsicons';
-	src: url('../fonts/codropsicons/codropsicons.eot');
-	src: url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'), url('../fonts/codropsicons/codropsicons.woff') format('woff'), url('../fonts/codropsicons/codropsicons.ttf') format('truetype'), url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	font-family: 'lohit';
+	src: url('../fonts/lohit/lohit.eot');
+	src: url('../fonts/lohit/lohit.eot?#iefix') format('embedded-opentype'), url('../fonts/lohit/lohit.woff') format('woff'), url('../fonts/lohit/lohit.ttf') format('truetype');
 }
+
 body {
 	background: #218eed;
 }
