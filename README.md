@@ -10,10 +10,9 @@
   <br>
 </h1>
 
-Unicode Converter is an Desktop Application aiming to help general user belonging from Nepal by providing an easy way to Convert English Word into Nepali words using Unicode system.
+Unicode Converter is an Open Source Desktop Application aiming to help general user belonging from Nepal by providing an easy way to Convert English Word into Nepali words using Unicode system.
 
 * This is an standalone Desktop Application created using Web Technologies like HTML/CSS, Javascript, NodeJS & [Electron](http://electron.atom.io/).
-* We have online Unicode converter available as well at [Unicode Site](http://www.nepdict.com/unicode).
 
 ## Screenshot
 <p align="center">
