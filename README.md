@@ -26,7 +26,7 @@ Unicode Converter is an Open Source Desktop Application aiming to help general u
 
     * Unicode App is available for both 32 and 64 bit Architectures.
 
-        1. Download ```unicode_amd64.deb```(32-bit) or ```unicode_i386.deb```(64-bit) from the [Unicode releases page](https://github.com/nirooj56/unicode/releases/tag/v1.2,1).
+        1. Download ```unicode_amd64.deb```(32-bit) or ```unicode_i386.deb```(64-bit) from the [Unicode releases page](https://github.com/nirooj56/unicode/releases/tag/v1.2.1).
         2. Run ```$ sudo dpkg --install unicode_*.deb``` on the downloaded package. (Or use **gdebi**)
         3. Launch Unicode the Appication Menu.
 
