@@ -1,12 +1,12 @@
 <h1 align="center">
   <br>
-  <img height="256" width="256" src="https://github.com/nirooj56/unicode/blob/master/logo.png" alt="Unicode Converter">
+  <img height="256" width="256" src="https://github.com/nirooj56/nepaliunicode/blob/master/logo.png" alt="Unicode Converter">
   <br>
   Unicode Converter
   <br>
-   <a href="https://travis-ci.org/nirooj56/unicode"><img src="https://travis-ci.org/nirooj56/unicode.svg?branch=master" alt="Travis"></a>
-  <a href="https://github.com/nirooj56/unicode/releases"><img src="https://img.shields.io/github/release/nirooj56/unicode.svg" alt="Release"></a>
-  <a href="https://github.com/nirooj56/unicode/blob/master/Licence"><img src="https://img.shields.io/github/license/nirooj56/unicode.svg" alt="Release"></a>
+   <a href="https://travis-ci.org/nirooj56/nepaliunicode"><img src="https://travis-ci.org/nirooj56/unicode.svg?branch=master" alt="Travis"></a>
+  <a href="https://github.com/nirooj56/nepaliunicode/releases"><img src="https://img.shields.io/github/release/nirooj56/unicode.svg" alt="Release"></a>
+  <a href="https://github.com/nirooj56/nepaliunicode/blob/master/Licence"><img src="https://img.shields.io/github/license/nirooj56/unicode.svg" alt="Release"></a>
   <br>
 </h1>
 
@@ -16,7 +16,7 @@ Unicode Converter is an Open Source Desktop Application aiming to help general u
 
 ## Screenshot
 <p align="center">
-<img src="https://github.com/nirooj56/unicode/blob/master/screenshot.png" title="Screenshot">
+<img src="https://github.com/nirooj56/nepaliunicode/blob/master/screenshot.png" title="Screenshot">
 </p>
 
 ## Installation
@@ -26,7 +26,7 @@ Unicode Converter is an Open Source Desktop Application aiming to help general u
 
     * Unicode App is available for both 32 and 64 bit Architectures.
 
-        1. Download ```unicode_amd64.deb```(32-bit) or ```unicode_i386.deb```(64-bit) from the [Unicode releases page](https://github.com/nirooj56/unicode/releases/tag/v1.2.1).
+        1. Download ```unicode_amd64.deb```(32-bit) or ```unicode_i386.deb```(64-bit) from the [Unicode releases page](https://github.com/nirooj56/nepaliunicode/releases/tag/v1.2.1).
         2. Run ```$ sudo dpkg --install unicode_*.deb``` on the downloaded package. (Or use **gdebi**)
         3. Launch Unicode the Appication Menu.
 
@@ -36,17 +36,17 @@ Unicode Converter is an Open Source Desktop Application aiming to help general u
 
 * Every Other Linux based Distros (***Preferable***)
 
-    1. Download the AppImage based on your Architecture of OS(32-bit or 64-bit) from [Unicode releases page](https://github.com/nirooj56/unicode/releases/tag/v1.2.1).
+    1. Download the AppImage based on your Architecture of OS(32-bit or 64-bit) from [Unicode releases page](https://github.com/nirooj56/nepaliunicode/releases/tag/v1.2.1).
     2. Make it executable with ``` $ sudo chmod a+x unicode_*.AppImage ```
     3. And Run by Double Clicking or ``` $ sudo ./unicode_*.AppImage ```
 
 ### OS-X
 
-* Download the latest Realese from [Unicode releases page](https://github.com/nirooj56/unicode/releases/tag/v1.2.1).
+* Download the latest Realese from [Unicode releases page](https://github.com/nirooj56/nepaliunicode/releases/tag/v1.2.1).
 
 ### Windows
 
-* Download the latest [Unicode installer](https://github.com/nirooj56/unicode/releases/tag/v1.2.1). ```Unicode-Setup_32bit.exe``` is for 32-bit, ```Unicode-Setup_x64.exe``` for 64-bit systems.
+* Download the latest [Unicode installer](https://github.com/nirooj56/nepaliunicode/releases/tag/v1.2.1). ```Unicode-Setup_32bit.exe``` is for 32-bit, ```Unicode-Setup_x64.exe``` for 64-bit systems.
 *  If you want the portable version and not have to install, then download ```win-ia32.zip```(32-bit) or ```win-x64.zip```(64-bit) from [Releases page](https://github.com/nirooj56/unicode/releases/tag/v1.2.1).
 
 ## Contribution
@@ -56,8 +56,8 @@ Unicode Converter is an Open Source Desktop Application aiming to help general u
 ### Get the code
 
 ```
-$ git clone https://github.com/nirooj56/unicode.git
-$ cd unicode
+$ git clone https://github.com/nirooj56/nepaliunicode.git
+$ cd nepaliunicode
 $ npm install
 ```
 
