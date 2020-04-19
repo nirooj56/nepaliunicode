@@ -61,8 +61,7 @@ $ npm start
     * _Various GUI Improvements_
     * Unused code has been cleared out.
     * New Logo updated.
-    * Removed the Debian based packaging format (.deb) for Linux and replaced with AppImage, Snap and Flatpak. 
-    * Thinking of adding Snap and/or Flatpak as a default installation option for linux. Will update soon on it.
+    * Removed the Debian based packaging format (.deb) for Linux and replaced with [AppImage](https://appimage.org/) and [Snap](https://snapcraft.io/) for Universal Packaging among every Linux Distros.
 
 * **Version 1.2.1**
 
