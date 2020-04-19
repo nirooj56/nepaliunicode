@@ -54,7 +54,7 @@ $ npm install
 $ npm start
 ```
 
-## Version
+## Changelogs
 
 * **Version 1.2.2**
 
