@@ -16,13 +16,9 @@
 
 body {
 	background: #218eed;
-}
-.container2 {
-	margin: 13px 0 0;
-}
-body {
 	color: #fff;
 	font-family: 'Lato', Arial, sans-serif;
+	overflow: hidden;
 }
 a,
 a:focus {
@@ -77,7 +73,7 @@ a:focus {
 
 /*footer*/
 
-.footer2 {
+.footer {
 	margin-top: 50px;
 	letter-spacing: 1px;
 	font-size: 15.5px;
@@ -87,21 +83,33 @@ a:focus {
 	border-top: 3px inset #33CCFF;
 	margin-bottom: 12px;
 }
-.footer2 img {
-	width: 30%;
+
+.footer span.heart {
+	color: red;
+}
+.footer a {
+	color: white;
+}
+.footer h5 {
+	color: #4B4B4B;
+	float: left;
+	/*! font-size: 19px; */
+	margin-left: 322px;
+	margin-top: 4px;
 }
 .heading {
 	padding: 7px;
 }
 .iconed {
 	float: left;
+	width: 13%;
 }
-.heading h1 {
-	color: #000000;
+.heading h5 {
+	color: #4B4B4B;
 	float: left;
-	font-size: 25px;
-	margin-left: 15px;
-	margin-top: 10px;
+	/*! font-size: 19px; */
+	margin-left: 322px;
+	margin-top: 4px;
 }
 .btn-close {
 	-webkit-app-region: no-drag;
@@ -130,4 +138,11 @@ a:focus {
 	margin-left: -10px;
 	margin-right: 20px;
 	font-weight: 600;
+}
+
+#version {
+    font-size: 12px;
+    float: right;
+    margin: 2px 17px 0 -58px;
+    color: #5E5E5F;
 }

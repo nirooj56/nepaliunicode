@@ -19,7 +19,7 @@ function createWindow() {
         fullscreen: false,
         backgroundColor: '#218eed',
         frame: false,
-        icon: path.join(__dirname, '/unicode.png')
+        icon: path.join(__dirname, '/logo.png')
     })
 
     // and load the index.html of the app.
@@ -69,25 +69,8 @@ ipcMain.on('minimize-main-window', function () {
 });
 
 
-//this creates the new browser window for about and help section
-app.on('ready', () => {
-    ipcMain.on('create-about-window', () => {
-        let aboutWindow = new BrowserWindow({
-            title: 'About',
-            width: 400,
-            height: 450,
-            resizable: false,
-            fullscreen: false,
-            movable: true,
-            alwaysOnTop: true,
-            backgroundColor: '#218eed',
-            frame: false,
-            icon: path.join(__dirname, '/unicode.png')
-        });
-        aboutWindow.setMenu(null);
-        aboutWindow.loadURL('file://' + __dirname + '/app/about.html');
-        aboutWindow.show();
-    });
+//this creates the new browser window for Help section
+
     ipcMain.on('create-help-window', () => {
         let helpWindow = new BrowserWindow({
             title: 'Help',
@@ -99,10 +82,9 @@ app.on('ready', () => {
             alwaysOnTop: true,
             backgroundColor: '#218eed',
             frame: false,
-            icon: path.join(__dirname, '/unicode.png')
+            icon: path.join(__dirname, '/logo.png')
         });
         helpWindow.setMenu(null);
         helpWindow.loadURL('file://' + __dirname + '/app/help.html');
         helpWindow.show();
     });
-});

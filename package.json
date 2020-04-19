@@ -1,29 +1,29 @@
 {
-  "name": "unicode-converter",
-  "displayName": "Unicode",
-  "productName": "Unicode",
-  "FileVersion": "v1.2.1",
-  "description": "An Unicode Converter app with support for Windows, OS X and GNU/Linux.",
-  "version": "1.2.1",
-  "homepage": "http://nepdict.com/unicode.html",
+  "name": "nepaliunicode",
+  "displayName": "Nepali Unicode",
+  "productName": "Nepali Unicode",
+  "FileVersion": "v1.2.2",
+  "description": "An Unicode Converter app with support for GNU/Linux, Windows & macOS.",
+  "version": "1.2.2",
+ "homepage": "http://nirooj56.github.io/nepaliunicode",
   "repository": {
     "type": "git",
-    "url": "git://github.com/nirooj56/unicode.git"
+    "url": "https://github.com/nirooj56/nepaliunicode.git"
   },
   "author": {
     "name": "Bista Nirooj",
     "email": "nirooj56@gmail.com",
-    "url": "http://nirojbista.com.np"
+    "url": "https://nirojbista.com.np"
   },
   "main": "main.js",
   "scripts": {
     "start": "electron main.js",
     "pack": "build",
-    "dist": "build --linux --ia32",
+    "dist": "build",
     "postinstall": "install-app-deps"
   },
   "build": {
-    "appId": "com.nepdict.unicode",
+    "appId": "np.com.nirojbista.nepaliunicode",
     "mac": {
       "category": "public.app-category.productivity"
     },
@@ -43,7 +43,7 @@
     },
     "linux": {
       "target": [
-        "deb",
+        "snap",
         "AppImage"
       ]
     },
@@ -55,8 +55,8 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "electron": "^1.4.4",
-    "electron-builder": "^17.8.0",
-    "electron-winstaller": "^2.5.2"
+    "electron": "^1.8.8",
+    "electron-builder": "^17.10.0",
+    "electron-winstaller": "^2.7.0"
   }
 }

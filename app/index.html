@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" />
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/index.js"></script>
+    <script type="text/javascript" src="assets/js/externalLinkOpener.js"></script>
     <!--Unicode Integeration-->
     <script language="javascript" type="text/javascript" src="assets/js/unicode.js"></script>
 </head>
@@ -18,14 +19,14 @@
 <body style="-webkit-app-region: drag">
     <div class="heading">
         <img class="iconed" src="assets/img/logo.png">
-        <h1>Unicode Converter</h1>
+       <!-- <h5>v1.2.2</h5> -->
         <button type="button" class="fa fa-times close btn-close" aria-hidden="true" onclick="closeWindow()" title="Close"></button>
         <button type="button" class="fa fa-minus btn-mini close" aria-hidden="true" onclick="minimizeWindow()" title="Minimize"></button>
         <button type="button" class="fa fa-question btn-mini close" aria-hidden="true" onclick="helpWindow()" title="Help"></button>
-        <button type="button" class="fa fa-info btn-mini close" aria-hidden="true" onclick="aboutWindow()" title="About"></button>
+        <button type="button" class="fa fa-info btn-mini close" aria-hidden="true" onclick="openExternalLink('https://github.com/nirooj56/nepaliunicode')" title="About"></button>
     </div>
     <div class="container2">
-        <header class="codrops-header">
+        <div class="codrops-header">
             <div class="form-group">
                 <form name="nepali">
                     <center>
@@ -33,12 +34,15 @@
                     </center>
                 </form>
             </div>
-        </header>
+        </div>
     </div>
-    <div class="footer2">
+    <div class="footer">
         <hr class="hr" width="75%" />
-        <span>Crafted by</span> <b>CycoTech Inc.</b>
+        <div>Crafted with <span class="heart">❤️</span> by <b><a href="" onclick="openExternalLink('https://nirojbista.com.np')">Cyco</a></b>
+        <span id="version">v1.2.2</span></div>
     </div>
+            
+
 </body>
 <script>
     const {

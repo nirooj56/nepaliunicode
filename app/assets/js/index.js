@@ -5,9 +5,6 @@ function closeWindow() {
 function minimizeWindow() {
 	ipcRenderer.send('minimize-main-window');
 }
-function aboutWindow() {
-	ipcRenderer.send('create-about-window');
-}
 function helpWindow() {
 	ipcRenderer.send('create-help-window');
 }
