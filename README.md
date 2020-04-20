@@ -30,7 +30,7 @@ Unicode Converter is an Open Source Desktop Application aiming to help general u
 [![Get it as Appimage](https://i.imgur.com/EKFupJW.png)](https://github.com/nirooj56/nepaliunicode/releases/download/v1.2.2/NepaliUnicode.AppImage)
 
 
-### OS-X
+### MacOS
 [![Get it as DMG (MacOS)](https://i.imgur.com/fwLy2G8.png)](https://github.com/nirooj56/nepaliunicode/releases/download/v1.2.1/Unicode-1.2.1.dmg)
 
 ### Windows
