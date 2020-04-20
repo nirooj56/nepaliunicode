@@ -7,6 +7,9 @@
    <a href="https://travis-ci.org/nirooj56/nepaliunicode"><img src="https://travis-ci.org/nirooj56/unicode.svg?branch=master" alt="Travis"></a>
   <a href="https://github.com/nirooj56/nepaliunicode/releases"><img src="https://img.shields.io/github/release/nirooj56/unicode.svg" alt="Release"></a>
   <a href="https://github.com/nirooj56/nepaliunicode/blob/master/Licence"><img src="https://img.shields.io/github/license/nirooj56/unicode.svg" alt="Release"></a>
+  <a href="https://snapcraft.io/nepaliunicode">
+<img alt="nepaliunicode" src="https://snapcraft.io/nepaliunicode/badge.svg" />
+</a>
   <br>
 </h1>
 
@@ -23,18 +26,17 @@ Unicode Converter is an Open Source Desktop Application aiming to help general u
 
 ### Linux
 
-    1. Download the AppImage based on your Architecture of OS(32-bit or 64-bit) from [Unicode releases page](https://github.com/nirooj56/nepaliunicode/releases/tag/v1.2.2).
-    2. Make it executable with ``` $ sudo chmod a+x unicode_*.AppImage ```
-    3. And Run by Double Clicking or ``` $ sudo ./unicode_*.AppImage ```
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/nepaliunicode)
+[![Get it as Appimage](https://i.imgur.com/EKFupJW.png)](https://github.com/nirooj56/nepaliunicode/releases/download/v1.2.2/NepaliUnicode.AppImage)
+
 
 ### OS-X
 
-* Download the latest Realese from [Unicode releases page](https://github.com/nirooj56/nepaliunicode/releases/tag/v1.2.2).
+* Download the latest Realese from [Unicode releases page](https://github.com/nirooj56/nepaliunicode/releases/tag/v1.2.1).
 
 ### Windows
+[![Get it as Execuatable](https://i.imgur.com/hNXhjPA.png)](https://github.com/nirooj56/nepaliunicode/releases/download/v1.2.2/Unicode-Setup_x64.exe)
 
-* Download the latest [Unicode installer](https://github.com/nirooj56/nepaliunicode/releases/tag/v1.2.2). ```Unicode-Setup_32bit.exe``` is for 32-bit, ```Unicode-Setup_x64.exe``` for 64-bit systems.
-*  If you want the portable version and not have to install, then download ```win-ia32.zip```(32-bit) or ```win-x64.zip```(64-bit) from [Releases page](https://github.com/nirooj56/unicode/releases/tag/v1.2.2).
 
 ## Contribution
 
