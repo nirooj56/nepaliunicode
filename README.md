@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img height="256" width="256" src="https://github.com/nirooj56/nepaliunicode/blob/master/logo.png" alt="Unicode Converter">
+  <img height="256" width="256" src="https://raw.githubusercontent.com/nirooj56/nepaliunicode/master/logo.png" alt="Unicode Converter">
   <br>
   Unicode Converter
   <br>
