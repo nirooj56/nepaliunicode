@@ -31,8 +31,7 @@ Unicode Converter is an Open Source Desktop Application aiming to help general u
 
 
 ### OS-X
-
-* Download the latest Realese from [Unicode releases page](https://github.com/nirooj56/nepaliunicode/releases/tag/v1.2.1).
+[![Get it as DMG (MacOS)](https://i.imgur.com/fwLy2G8.png)](https://github.com/nirooj56/nepaliunicode/releases/download/v1.2.1/Unicode-1.2.1.dmg)
 
 ### Windows
 [![Get it as Execuatable](https://i.imgur.com/hNXhjPA.png)](https://github.com/nirooj56/nepaliunicode/releases/download/v1.2.2/Unicode-Setup_x64.exe)
