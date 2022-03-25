@@ -55,7 +55,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "electron": "^11.5.0",
+    "electron": "^13.6.6",
     "electron-builder": "^17.10.0",
     "electron-winstaller": "^2.7.0"
   }
