@@ -39,7 +39,7 @@ Unicode Converter is an Open Source Desktop Application aiming to help general u
 
 ## Contribution
 
-**Unicode Converter** is NOT under active development. This project is archieved. I don't even know if it still works. You can try out the current (stable) development version by cloning or Forking the Git repo. See the instructions below in the "[How to Contribute](#how-to-contribute)" section.
+**Unicode Converter** is NOT under active development. This project is archived. I don't even know if it still works. You can try out the current (stable) development version by cloning or Forking the Git repo. See the instructions below in the "[How to Contribute](#how-to-contribute)" section.
 
 ### Get the code
 
