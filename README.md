@@ -39,7 +39,7 @@ Unicode Converter is an Open Source Desktop Application aiming to help general u
 
 ## Contribution
 
-**Unicode Converter** is under very active development. You can try out the current (stable) development version by cloning or Forking the Git repo. See the instructions below in the "[How to Contribute](#how-to-contribute)" section.
+**Unicode Converter** is NOT under active development. This project is archieved. I don't even know if it still works. You can try out the current (stable) development version by cloning or Forking the Git repo. See the instructions below in the "[How to Contribute](#how-to-contribute)" section.
 
 ### Get the code
 
@@ -82,7 +82,6 @@ $ npm start
 * **Name**: Nirooj Bista
 * **Website**: http://www.nirojbista.com.np
 * **E-mail**: info@nirojbista.com.np
-* **[Facebook](https://www.facebook.com/nirooj56) - [Twitter](https://www.twitter.com/nirooj56) - [Google+](https://plus.google.com/+bistanirooj) - [Linkedin](https://www.linkedin.com/in/nirooj56)**
 
 ## License
 
